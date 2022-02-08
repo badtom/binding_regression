@@ -1,10 +1,10 @@
 # binding_regression
 In the 'data' folder, files ligand_activities.pckl and ligand_activity_deltas.pckl
 are pickled sparse matrices of type csr_matrix from scipy.sparse.
-The value in the *i*th row and *j*th column of matrix from ligand_activity_deltas.pckl
+The value in the *i*th row and *j*th column of the matrix from ligand_activity_deltas.pckl
 is equal to *delta = pActivity - threshold* for the *i*th ligand and *j*th target,
-while such value for the matrix in ligand_activities.pckl is 1 if *delta >= 0*
-and -1 if *delta < 0*. The file ligand_smiles.txt contains ligand smileses
+while such value for the matrix in ligand_activities.pckl is *1* if *delta >= 0*
+and *-1* if *delta < 0*. The file ligand_smiles.txt contains ligand smileses
 corresponding to the consecutive rows of the above matrices and 
 target_chembl_ids.txt contains ChEMBL ids for targets in columns of these matrices. 
 
