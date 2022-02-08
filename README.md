@@ -14,6 +14,6 @@ target_indices.pckl is a pickled numpy array with column indices in the above
 sparse matrices corresponding to targets used in a given split, while 
 train_ligand_indices.pckl, valid_ligand_indices.pckl, and test_ligand_indices.pckl 
 are pickled numpy arrays with row indices of ligands used in the train, 
-validation, and test split respectively.
+validation, and test set of the split respectively.
 
 
